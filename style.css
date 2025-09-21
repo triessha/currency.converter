@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #FF6B6B, #FFC0CB); /* red & pink */
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    color: #D32F2F; /* red heading */
+}
+
+.converter {
+    margin-top: 20px;
+}
+
+.selects {
+    margin: 10px 0;
+}
+
+select, input {
+    padding: 10px;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #D32F2F;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#result {
+    margin-top: 15px;
+    color: #C2185B; /* pink text for result */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+option {
+    padding: 5px;
+}
